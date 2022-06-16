@@ -10,7 +10,18 @@ let foo = {
     role:"admin",
     skills:["javascript", "html", "css", "python", "flask", "react", "redux"]
 };
-let result;
+let result= [];
+
+let niu = Object.values(foo.skills)
+
+niu.map(function(habilidades){
+    return result.push(habilidades)
+})
+console.log(result)
+
+//result.push(Object.values(foo.skills))
+
+
 
 
 //export result

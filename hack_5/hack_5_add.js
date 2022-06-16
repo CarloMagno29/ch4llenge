@@ -12,8 +12,12 @@ let result = {
     id:100,
     name:"foo",
 };
-let role = "admin";
+let role = "admin"
 
- 
+result.role = "admin"
+
+console.log(result)
+
+
 //export result
 module.exports = result; 

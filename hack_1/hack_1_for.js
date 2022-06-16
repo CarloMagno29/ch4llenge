@@ -10,5 +10,12 @@ let arr = [{a:1},{b:2},{c:3},{d:4},{e:5}];
 let result = [];
 
 
+
+
+for(i = 0; i<arr.length;i++){
+    result.push(...Object.values(arr[i]));
+}
+
+console.log(result)
 //export result
 module.exports = result;
